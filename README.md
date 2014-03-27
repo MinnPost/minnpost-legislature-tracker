@@ -1,4 +1,7 @@
-# Legislature Tracker
+*This is the code base for the 2013 piece for MinnPost.  If you are looking for the general, re-usable Legislature Tracker, please see this repository:* https://github.com/MinnPost/legislature-tracker
+
+
+# 2013 MN Legislature Tracker
 
 An application to keep track of what is going on in a state legislature.  Using editorial expertise and the Sunlight Lab's Open States API, this application aims to create a curated view of what is going on in a state's legislature session.
 
