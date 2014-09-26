@@ -1,6 +1,6 @@
-Note, this is a custom version of the Legislature Tracker for MinnPost, please see the [Legislature Tracker project](https://github.com/MinnPost/legislature-tracker) for the reusable codebase.
+*Note, this is a custom version of the Legislature Tracker for MinnPost, please see the [Legislature Tracker project](https://github.com/MinnPost/legislature-tracker) for the reusable codebase.*
 
-# Legislature Tracker
+# 2013 MN Legislature Tracker
 
 An application to keep track of what is going on in a state legislature.  Using editorial expertise and the Sunlight Lab's Open States API, this application aims to create a curated view of what is going on in a state's legislature session.
 
@@ -61,7 +61,7 @@ There are a few fields that are a list of links.  You should use this subject so
 
 ```
 "Link text title|http://www.example.com/123", "Another link text title|http://www.example.com/154"
-``` 
+```
 
 ### How does your legislature work?
 
@@ -109,7 +109,7 @@ To ensure that both memory and network usage is minimized, there is some basic c
 For model instances, we wrap the creation of models in the following method:
 
     LT.utils.getModel('ModelName', 'identifying_attribute', attributes)
-    
+
 For fetching models, specifically Open States data, we wrap fetching:
 
     $.when(LT.utils.fetchModel(model)).then(
@@ -119,7 +119,7 @@ For fetching models, specifically Open States data, we wrap fetching:
 
 #### Google Spreadsheets
 
-This application uses [Tabletop.js](https://github.com/jsoma/tabletop) to read in data from Google Spreadsheets.  Due to the fact that Google does not guarantee up time or ability to handle requests, it is good practice to cache the outputs for production.  Tabletop has some recent additions to handle proxy via saving the outputs to a place like S3, as well as more traditional proxy like [gs-proxy](https://github.com/MinnPost/gs-proxy). 
+This application uses [Tabletop.js](https://github.com/jsoma/tabletop) to read in data from Google Spreadsheets.  Due to the fact that Google does not guarantee up time or ability to handle requests, it is good practice to cache the outputs for production.  Tabletop has some recent additions to handle proxy via saving the outputs to a place like S3, as well as more traditional proxy like [gs-proxy](https://github.com/MinnPost/gs-proxy).
 
 ### Data Models
 
